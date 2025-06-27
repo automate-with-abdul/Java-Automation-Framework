@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Waiting for page to load completely]]>
+    </line>
+    <line>
+      <![CDATA[Typing 'Abdul Mateen' into: By.id: userName]]>
+    </line>
+    <line>
+      <![CDATA[Typing 'abdul.mateen@testmail.com' into: By.id: userEmail]]>
+    </line>
+    <line>
+      <![CDATA[Typing 'Hyderabad, India' into: By.id: currentAddress]]>
+    </line>
+    <line>
+      <![CDATA[Typing 'Bangalore, India' into: By.id: permanentAddress]]>
+    </line>
+    <line>
+      <![CDATA[Clicking element: By.id: submit]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for page to load completely]]>
+    </line>
+    <line>
+      <![CDATA[Clicking element: By.cssSelector: button[title='Expand all']]]>
+    </line>
+    <line>
+      <![CDATA[Clicking element: By.cssSelector: span[class='rct-title']]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-06-27T18:16:50 IST" name="Cross Browser Suite" finished-at="2025-06-27T18:17:06 IST" duration-ms="16013">
+    <groups>
+    </groups>
+    <test started-at="2025-06-27T18:16:50 IST" name="Chrome Tests" finished-at="2025-06-27T18:17:06 IST" duration-ms="16013">
+      <class name="com.framework.tests.TextBoxTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.framework.tests.TextBoxTest@74bdc168]" started-at="2025-06-27T18:16:50 IST" name="setUp" finished-at="2025-06-27T18:16:52 IST" duration-ms="1720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTextBoxFormSubmission()[pri:0, instance:com.framework.tests.TextBoxTest@74bdc168]" started-at="2025-06-27T18:16:52 IST" name="testTextBoxFormSubmission" finished-at="2025-06-27T18:17:01 IST" duration-ms="9130" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button id="submit" type="button" class="btn btn-primary">...</button> is not clickable at point (1080, 668). Other element would receive the click: <iframe frameborder="0" src="https://03f2e1640c7dc41ff37c3de5d0a5519d.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>
+  (Session info: chrome=137.0.7151.120)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [efe333ab611f0cc292db1a65d1509874, clickElement {id=f.EBB827841EF2A2392D5BAFB274398FAE.d.8E83E3CE3741D2437856CE07F55921BC.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\F\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51543}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51543/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (efe333ab611f0cc292db1a65d1509874)] -> id: submit]
+Session ID: efe333ab611f0cc292db1a65d1509874]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="submit" type="button" class="btn btn-primary">...</button> is not clickable at point (1080, 668). Other element would receive the click: <iframe frameborder="0" src="https://03f2e1640c7dc41ff37c3de5d0a5519d.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe>
+  (Session info: chrome=137.0.7151.120)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [efe333ab611f0cc292db1a65d1509874, clickElement {id=f.EBB827841EF2A2392D5BAFB274398FAE.d.8E83E3CE3741D2437856CE07F55921BC.e.46}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\F\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51543}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51543/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (efe333ab611f0cc292db1a65d1509874)] -> id: submit]
+Session ID: efe333ab611f0cc292db1a65d1509874
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at com.framework.utils.PageActionUtils.click(PageActionUtils.java:26)
+at com.framework.pages.TextBoxPage.clickSubmit(TextBoxPage.java:29)
+at com.framework.tests.TextBoxTest.testTextBoxFormSubmission(TextBoxTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Waiting for page to load completely]]>
+            </line>
+            <line>
+              <![CDATA[Typing 'Abdul Mateen' into: By.id: userName]]>
+            </line>
+            <line>
+              <![CDATA[Typing 'abdul.mateen@testmail.com' into: By.id: userEmail]]>
+            </line>
+            <line>
+              <![CDATA[Typing 'Hyderabad, India' into: By.id: currentAddress]]>
+            </line>
+            <line>
+              <![CDATA[Typing 'Bangalore, India' into: By.id: permanentAddress]]>
+            </line>
+            <line>
+              <![CDATA[Clicking element: By.id: submit]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testTextBoxFormSubmission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.TextBoxTest@74bdc168]" started-at="2025-06-27T18:17:01 IST" name="tearDown" finished-at="2025-06-27T18:17:01 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.framework.tests.TextBoxTest -->
+      <class name="com.framework.tests.CheckBoxTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.framework.tests.CheckBoxTest@1b0a7baf]" started-at="2025-06-27T18:17:01 IST" name="setUp" finished-at="2025-06-27T18:17:02 IST" duration-ms="737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckBoxSelection()[pri:0, instance:com.framework.tests.CheckBoxTest@1b0a7baf]" started-at="2025-06-27T18:17:02 IST" name="testCheckBoxSelection" finished-at="2025-06-27T18:17:05 IST" duration-ms="3391" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Waiting for page to load completely]]>
+            </line>
+            <line>
+              <![CDATA[Clicking element: By.cssSelector: button[title='Expand all']]]>
+            </line>
+            <line>
+              <![CDATA[Clicking element: By.cssSelector: span[class='rct-title']]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCheckBoxSelection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.framework.tests.CheckBoxTest@1b0a7baf]" started-at="2025-06-27T18:17:06 IST" name="tearDown" finished-at="2025-06-27T18:17:06 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.framework.tests.CheckBoxTest -->
+    </test> <!-- Chrome Tests -->
+  </suite> <!-- Cross Browser Suite -->
+</testng-results>

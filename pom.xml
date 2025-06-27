@@ -1,0 +1,105 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.framework</groupId>
+  <artifactId>HybridFramework</artifactId>
+  <version>1.0</version>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <!-- Selenium -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>4.21.0</version>
+    </dependency>
+
+    <!-- WebDriverManager -->
+    <dependency>
+      <groupId>io.github.bonigarcia</groupId>
+      <artifactId>webdrivermanager</artifactId>
+      <version>5.7.0</version>
+    </dependency>
+
+    <!-- TestNG -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.9.0</version>
+    </dependency>
+
+    <!-- ExtentReports Spark -->
+    <dependency>
+      <groupId>com.aventstack</groupId>
+      <artifactId>extentreports</artifactId>
+      <version>5.1.1</version>
+    </dependency>
+
+    <!-- REST Assured -->
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>5.4.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+<dependency>
+  <groupId>io.appium</groupId>
+  <artifactId>java-client</artifactId>
+  <version>8.5.1</version> 
+</dependency>
+
+    <!-- Apache POI for Excel -->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>5.2.3</version>
+    </dependency>
+
+    <!-- PDF Util -->
+    <dependency>
+      <groupId>org.apache.pdfbox</groupId>
+      <artifactId>pdfbox</artifactId>
+      <version>2.0.30</version>
+    </dependency>
+
+    <!-- CSV -->
+    <dependency>
+      <groupId>com.opencsv</groupId>
+      <artifactId>opencsv</artifactId>
+      <version>5.9</version>
+    </dependency>
+
+    <!-- Java Mail -->
+    <dependency>
+      <groupId>com.sun.mail</groupId>
+      <artifactId>javax.mail</artifactId>
+      <version>1.6.2</version>
+    </dependency>
+
+    <!-- MySQL JDBC -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.32</version>
+    </dependency>
+
+    <!-- Logging -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.22.1</version>
+    </dependency>
+
+<dependency>
+  <groupId>commons-io</groupId>
+  <artifactId>commons-io</artifactId>
+  <version>2.15.1</version>
+</dependency>
+
+  </dependencies>
+</project>
